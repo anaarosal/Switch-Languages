@@ -1,0 +1,22 @@
+#general{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    #idiomas{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        background-color: rgba(222, 220, 220, 0.495);
+        padding: 20px;
+        margin: 10px;
+        div{
+            line-height: 2em;
+            p{
+                padding: 1em 0em;
+            }
+        }
+    }
+}
